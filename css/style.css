@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 32px;
+    width:100%;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    position: relative;
+    display:block;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:30%;
+    right:30%;
+    top: 45%;
+  }
+  
+  .button_start {
+    width: 240px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.7s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 22px;
+    margin-bottom: 18px;
+    }
+  
+  .button_start:hover {
+    background-color: #df5b43;
+    box-shadow: 0px 15px 20px rgba(240, 180, 70, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+h1{
+    font-size: 100%;
+}
+h2{
+    font-size: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.opening {
+    display: none;
+}
+
+#mainvisual {
+    background-color:rgba(0, 0, 0, 0.1);
+    background-image:url(https://www.travelinusa.us/wp-content/uploads/sites/3/2019/11/forrest-gump-point.jpg);
+    /* center / cover; */
+    display: none;
+}
+
+main{
+    width:100%;
+    display: block;
+    border-bottom:1px solid #ccc;
+    position:relative;
+    height:100%;
+}
+footer{
+    /* background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ccc5ea4-f873-47ff-b0d9-8149eece0ed7/d2cm6go-e6301c00-ee63-45e4-a122-6b82fc066143.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNjY2M1ZWE0LWY4NzMtNDdmZi1iMGQ5LTgxNDllZWNlMGVkN1wvZDJjbTZnby1lNjMwMWMwMC1lZTYzLTQ1ZTQtYTEyMi02YjgyZmMwNjYxNDMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HK2XEmr9W0VGwV_PBRC3TM5rdJqsGkkEmqRteIwRMuo)
+    center / cover; */
+    background-color:rgba(192, 192, 192, 0.592);
+    border-bottom:1px solid #ccc;
+    text-align: center;
+    font-size: 22px;
+}
+
+#todo {
+    margin-top: 48px;
+}
+
+label {
+    font-family:sans-serif;
+}
+
+button {
+    width: 180px;
+    height: 45px;
+    color:rgba(255, 255, 255, 0.997);
+    background-color: #aeaeaebc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 24px;
+}
+
+#key{
+    margin:0 3%;
+    width: 95%;
+    font-size:80%;
+    background-color: #0e62c1;
+    box-shadow: 3px 3px 3px 3px rgb(172, 14, 14);
+}
+table{
+    margin: 20px 3%;
+    border:1px solid #ffffff9f;
+    width:auto;
+    
+}
+th{
+    width: 20%;
+    font-size:18px;
+    background-color:#767676cc;
+    border-bottom: 1px solid #dcdcdc;
+}
+td{
+    font-size:18px;
+    background-color:rgba(255, 255, 255, 0.786);
+    border-bottom: 1px solid #ffffff;
+}
+
+#MyChart {
+    background: rgba(229, 229, 229, 0.682);
+    margin-left:60%;
+    margin-bottom: 140px;
+}
